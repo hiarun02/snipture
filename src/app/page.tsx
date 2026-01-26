@@ -2,6 +2,7 @@
 import Hero from "@/components/landing/Hero";
 import Navbar from "@/components/landing/Navbar";
 import LandingFooter from "@/components/landing/Footer";
+import SupportDialog from "@/components/landing/SupportDialog";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <LandingFooter />
       </main>
+      <SupportDialog />
     </div>
   );
 }

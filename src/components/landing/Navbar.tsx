@@ -90,7 +90,7 @@ export default function Navbar() {
             </Button>
             <Button
               variant="default"
-              className="hidden sm:inline-flex rounded-2xl"
+              className="hidden sm:inline-flex rounded-3xl"
               asChild
             >
               <Link href="/editor">
