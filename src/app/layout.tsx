@@ -1,8 +1,6 @@
 import type {Metadata} from "next";
 import {Inter} from "next/font/google";
-import Header from "@/components/Footer";
-import {Analytics} from "@vercel/analytics/react";
-import {Toaster} from "sonner";
+
 import "@/styles/globals.css";
 import Providers from "@/provider/Providers";
 
@@ -30,10 +28,7 @@ export default function RootLayout({
         <body
           className={`${inter.className} bg-gray-100 min-h-screen overflow-x-hidden overflow-y-auto`}
         >
-          <Header />
           {children}
-          <Toaster />
-          <Analytics />
         </body>
       </Providers>
     </html>

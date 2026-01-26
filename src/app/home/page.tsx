@@ -1,15 +1,12 @@
-"use client";
 import Hero from "@/components/landing/Hero";
 import Navbar from "@/components/landing/Navbar";
-import LandingFooter from "@/components/landing/Footer";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-white to-gray-50">
       <Navbar />
-      <main className="flex min-h-screen flex-col justify-between pb-0">
+      <main className="flex flex-col gap-16 pb-24">
         <Hero />
-        <LandingFooter />
       </main>
     </div>
   );
