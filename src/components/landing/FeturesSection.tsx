@@ -11,7 +11,7 @@ import {
 const FeturesSection = () => {
   const highlights = [
     {
-      title: "22+ Premium Themes",
+      title: "20+ Premium Themes",
       description:
         "From classic dark to modern gradients find the perfect look for your code.",
       icon: <FaPalette className="text-indigo-600" />,
@@ -41,7 +41,7 @@ const FeturesSection = () => {
       icon: <FaCode className="text-blue-600" />,
     },
     {
-      title: "23+ Backgrounds",
+      title: "20+ Backgrounds",
       description:
         "Choose from stunning gradients ranging from vibrant sunsets to elegant monochromes.",
       icon: <FaImage className="text-pink-600" />,
