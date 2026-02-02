@@ -37,7 +37,7 @@ export default function Hero() {
             asChild
           >
             <Link
-              href="https://github.com/hiarun02/Snippify"
+              href="https://github.com/hiarun02/Snipture"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2"

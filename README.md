@@ -1,8 +1,8 @@
-# Snippify 🎨
+# Snipture 🎨
 
 A modern code snippet generator that transforms your code into beautiful, shareable images with customizable themes, gradients, and styling options.
 
-![Snippify Demo](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
+![Snipture Demo](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React-19-blue?style=flat-square&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?style=flat-square&logo=tailwind-css)
 
@@ -36,8 +36,8 @@ A modern code snippet generator that transforms your code into beautiful, sharea
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/hiarun02/Snippify.git
-cd Snippify
+git clone https://github.com/hiarun02/Snipture.git
+cd Snipture
 ```
 
 2. **Install dependencies**
@@ -132,7 +132,7 @@ This project is open source and available under the Apache License 2.0 - see the
 
 ## 👥 Contributors
 
-Thanks to all our amazing contributors! Check out the [Contributors page](https://github.com/hiarun02/Snippify/graphs/contributors) for more details.
+Thanks to all our amazing contributors! Check out the [Contributors page](https://github.com/hiarun02/Snipture/graphs/contributors) for more details.
 
 ## 👨‍💻 Creator
 

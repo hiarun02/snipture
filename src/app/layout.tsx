@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Snippify - Generate Code Snippets",
+  title: "Snipture - Generate Code Snippets",
   description: "Designed and Developed by Arun kumar  ",
   icons: {
     icon: "/icon.svg",
