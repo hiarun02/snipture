@@ -10,7 +10,7 @@ Transform your code into stunning, shareable images with beautiful themes and gr
 
 ### Live Demo
 
-🚀 **[Visit Snippify](https://snippify.dev)** - Start creating beautiful code snippets now!
+🚀 **[Visit Snippify](https://snippify.live)** - Start creating beautiful code snippets now!
 
 ## ✨ Key Features
 
