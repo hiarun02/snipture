@@ -19,7 +19,7 @@ export default function Navbar() {
     const fetchStars = async () => {
       try {
         const res = await fetch(
-          "https://api.github.com/repos/hiarun02/Snippify",
+          "https://api.github.com/repos/hiarun02/Snipture",
         );
         const data = await res.json();
         if (typeof data?.stargazers_count === "number") {
@@ -59,15 +59,15 @@ export default function Navbar() {
               <Image
                 className="rounded-full"
                 src="/icon.svg"
-                alt="Snippify logo"
+                alt="Snipture logo"
                 width={24}
                 height={24}
                 priority
               />
             </span>
             <div className="leading-tight">
-              <p className="text-base font-semibold text-gray-900 dark:text-white">
-                Snippify
+              <p className="text-sm font-semibold text-gray-900 dark:text-white">
+                Snipture
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function Navbar() {
               asChild
             >
               <Link
-                href="https://github.com/hiarun02/Snippify"
+                href="https://github.com/hiarun02/Snipture"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2"
