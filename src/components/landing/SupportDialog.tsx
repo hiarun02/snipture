@@ -64,7 +64,7 @@ export default function SupportDialog({children}: SupportDialogProps) {
           </Button>
         )}
       </DialogTrigger>
-      <DialogContent className="max-w-[calc(100vw-2rem)] max-h-[calc(100vh-2rem)] overflow-y-auto border-gray-200 bg-white p-4 text-gray-900 dark:border-white/10 dark:bg-gray-900 dark:text-gray-100 sm:max-w-3xl sm:p-6">
+      <DialogContent className="max-w-[calc(100vw-2rem)] max-h-[calc(100vh-2rem)] overflow-y-auto border-gray-200 bg-white p-4 text-gray-900 dark:border-white/10 dark:bg-[#111010] dark:text-gray-100 sm:max-w-3xl sm:p-6">
         <DialogHeader className="gap-1">
           <DialogTitle className="text-2xl font-bold text-gray-900 dark:text-white">
             Support Snippify
@@ -75,7 +75,7 @@ export default function SupportDialog({children}: SupportDialogProps) {
         </DialogHeader>
 
         <div className="grid gap-4 sm:grid-cols-2">
-          <div className="rounded-xl border border-amber-100 bg-amber-50/80 p-4 shadow-sm dark:border-amber-500/20 dark:bg-amber-500/10">
+          <div className="rounded-xl border border-amber-100 bg-amber-50/80 p-4 shadow-sm dark:border-amber-500/20 dark:bg-[#111010]/10">
             <div className="flex items-center gap-3">
               <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-amber-500 text-white">
                 <FaCoffee />
@@ -99,7 +99,7 @@ export default function SupportDialog({children}: SupportDialogProps) {
             </Button>
           </div>
 
-          <div className="rounded-xl border border-blue-100 bg-blue-50/80 p-4 shadow-sm dark:border-blue-500/20 dark:bg-blue-500/10">
+          <div className="rounded-xl border border-blue-100 bg-blue-50/80 p-4 shadow-sm dark:border-blue-500/20 dark:bg-[#111010]/10">
             <div className="flex items-center gap-3">
               <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white">
                 <FaPaypal />
@@ -125,10 +125,10 @@ export default function SupportDialog({children}: SupportDialogProps) {
           </div>
         </div>
 
-        <div className="rounded-xl border border-gray-200 bg-gray-50 p-4 shadow-sm dark:border-white/10 dark:bg-gray-800/60 sm:p-5">
+        <div className="rounded-xl border border-gray-200 bg-gray-50 p-4 shadow-sm dark:border-white/10 dark:bg-[#111010]/60 sm:p-5">
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex items-center gap-3">
-              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-100 text-emerald-700 dark:bg-emerald-500/20 dark:text-emerald-200">
+              <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-100 text-emerald-700 dark:bg-[#111010]/20 dark:text-emerald-200">
                 <FaMobileAlt />
               </span>
               <div>
@@ -159,7 +159,7 @@ export default function SupportDialog({children}: SupportDialogProps) {
           </div>
 
           <div className="mt-4 grid gap-4 sm:grid-cols-[240px,1fr] sm:items-center">
-            <div className="overflow-hidden rounded-lg border border-gray-200 bg-white p-3 dark:border-white/10 dark:bg-gray-900">
+            <div className="overflow-hidden rounded-lg border border-gray-200 bg-white p-3 dark:border-white/10 dark:bg-[#111010]">
               <Image
                 src={qrSrc}
                 alt="UPI QR"
@@ -169,7 +169,7 @@ export default function SupportDialog({children}: SupportDialogProps) {
                 unoptimized
               />
             </div>
-            <div className="space-y-2 rounded-lg bg-white/70 p-4 text-center text-sm text-gray-700 dark:bg-white/5 dark:text-gray-200 sm:text-left">
+            <div className="space-y-2 rounded-lg bg-white/70 p-4 text-center text-sm text-gray-700 dark:bg-[#111010]/80 dark:text-gray-200 sm:text-left">
               <p className="font-semibold text-gray-900 dark:text-gray-100">
                 {UPI_ID}
               </p>

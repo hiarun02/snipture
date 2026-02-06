@@ -66,7 +66,7 @@ export default function EditorHeader() {
   return (
     <section className="fixed top-0 flex justify-center z-10 w-full">
       <div className="flex justify-center w-full max-w-6xl mx-auto">
-        <div className="flex flex-col items-center w-full px-2 sm:px-10 py-2 sm:py-4 min-h-auto sm:min-h-20 rounded-b-2xl bg-white/20 text-black backdrop-blur-2xl border border-black/10 dark:bg-white/5 dark:text-gray-100 dark:border-white/10">
+        <div className="flex flex-col items-center w-full px-2 sm:px-10 py-2 sm:py-4 min-h-auto sm:min-h-20 rounded-b-2xl bg-white/20 text-black backdrop-blur-2xl border border-black/10 dark:bg-[#111010]/80 dark:text-gray-100 dark:border-white/10">
           <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-10 w-full">
             <div className="space-y-1">
               <Label
@@ -80,7 +80,7 @@ export default function EditorHeader() {
                   setGradient(value);
                 }}
               >
-                <SelectTrigger className="border-black/30 bg-white/80 space-x-2 w-16 h-7 flex items-center justify-center dark:border-white/15 dark:bg-gray-900/80 dark:text-gray-100">
+                <SelectTrigger className="border-black/30 bg-white/80 space-x-2 w-16 h-7 flex items-center justify-center dark:border-white/15 dark:bg-[#111010]/80 dark:text-gray-100">
                   <div
                     className="w-4 h-4 rounded-full"
                     style={{background: gradient}}
@@ -121,7 +121,7 @@ export default function EditorHeader() {
                   setIsBackgroundHidden(value === "no");
                 }}
               >
-                <SelectTrigger className="w-16 h-7 text-xs border-black/30 bg-white/80 dark:border-white/15 dark:bg-gray-900/80 dark:text-gray-100">
+                <SelectTrigger className="w-16 h-7 text-xs border-black/30 bg-white/80 dark:border-white/15 dark:bg-[#111010]/80 dark:text-gray-100">
                   <SelectValue placeholder="Yes" />
                 </SelectTrigger>
                 <SelectContent>
@@ -143,7 +143,7 @@ export default function EditorHeader() {
                   setShowLineNumbers(value === "yes");
                 }}
               >
-                <SelectTrigger className="w-16 h-7 text-xs border-black/30 bg-white/80 dark:border-white/15 dark:bg-gray-900/80 dark:text-gray-100">
+                <SelectTrigger className="w-16 h-7 text-xs border-black/30 bg-white/80 dark:border-white/15 dark:bg-[#111010]/80 dark:text-gray-100">
                   <SelectValue placeholder="Yes" />
                 </SelectTrigger>
                 <SelectContent>
@@ -164,7 +164,7 @@ export default function EditorHeader() {
                   setTheme(themes[value as ThemeName]);
                 }}
               >
-                <SelectTrigger className="w-28 h-7 text-xs text-center border-black/30 bg-white/80 dark:border-white/15 dark:bg-gray-900/80 dark:text-gray-100">
+                <SelectTrigger className="w-28 h-7 text-xs text-center border-black/30 bg-white/80 dark:border-white/15 dark:bg-[#111010]/80 dark:text-gray-100">
                   <SelectValue
                     placeholder="ColdarkDark"
                     className="text-center"
@@ -191,7 +191,7 @@ export default function EditorHeader() {
                   setLanguage(value);
                 }}
               >
-                <SelectTrigger className="w-[110px] h-7 text-xs border-black/30 bg-white/80 dark:border-white/15 dark:bg-gray-900/80 dark:text-gray-100">
+                <SelectTrigger className="w-[110px] h-7 text-xs border-black/30 bg-white/80 dark:border-white/15 dark:bg-[#111010]/80 dark:text-gray-100">
                   <SelectValue placeholder="JavaScript" />
                 </SelectTrigger>
                 <SelectContent>
@@ -220,7 +220,7 @@ export default function EditorHeader() {
                 onChange={(e) =>
                   setFontSize(parseInt(e.target.value, 10) || 16)
                 }
-                className="w-16 text-center h-7 font-xs border-black/30 bg-white/80 dark:border-white/15 dark:bg-gray-900/80 dark:text-gray-100"
+                className="w-16 text-center h-7 font-xs border-black/30 bg-white/80 dark:border-white/15 dark:bg-[#111010]/80 dark:text-gray-100"
               />
             </div>
             <div className="space-y-1 flex flex-col mb-[-5px]">
@@ -231,7 +231,7 @@ export default function EditorHeader() {
                 onClick={handleExportImage}
                 disabled={isExporting}
                 variant="outline"
-                className="px-3 py-1 text-xs h-7 bg-white/80 border-black/30 disabled:opacity-50 disabled:cursor-not-allowed dark:border-white/15 dark:bg-gray-900/80 dark:text-gray-100"
+                className="px-3 py-1 text-xs h-7 bg-white/80 border-black/30 disabled:opacity-50 disabled:cursor-not-allowed dark:border-white/15 dark:bg-[#111010]/80 dark:text-gray-100"
               >
                 {isExporting ? (
                   <>

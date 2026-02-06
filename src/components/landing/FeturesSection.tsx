@@ -64,7 +64,7 @@ const FeturesSection = () => {
         {highlights.map((item) => (
           <div
             key={item.title}
-            className="group relative flex flex-col items-center gap-3 rounded-2xl border bg-white/70 p-6 text-center shadow-sm backdrop-blur-md transition-all duration-300 hover:scale-[1.02] hover:shadow-md dark:border-white/10 dark:bg-gray-900/60"
+            className="group relative flex flex-col items-center gap-3 rounded-2xl border bg-white/70 p-6 text-center shadow-sm backdrop-blur-md transition-all duration-300 hover:scale-[1.02] hover:shadow-md dark:border-white/10 dark:bg-[#111010]/60"
           >
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-white to-gray-50 text-2xl shadow-md backdrop-blur-sm transition-transform duration-300 group-hover:scale-110">
               {item.icon}

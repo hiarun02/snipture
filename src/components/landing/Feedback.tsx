@@ -47,7 +47,7 @@ export default function Feedback() {
 
   return (
     <div
-      className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-16"
+      className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-16"
       id="testimonials"
     >
       <div className="text-center mb-12">
@@ -72,8 +72,8 @@ function TweetCard({tweet}: {tweet: TweetDTO}) {
   return (
     <div
       className="rounded-2xl p-6 bg-white border border-gray-200 hover:bg-gray-50
-                 shadow-sm transition-all duration-200 cursor-pointer dark:bg-[#16181c]
-                 dark:border-[#2f3336] dark:hover:bg-[#1c1f23]"
+             shadow-sm transition-all duration-200 cursor-pointer dark:bg-[#111010]
+             dark:border-[#2f3336] dark:hover:bg-[#111010]/90"
       onClick={() => {
         if (tweet.url) {
           window.open(tweet.url, "_blank");
