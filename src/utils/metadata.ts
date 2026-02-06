@@ -31,31 +31,3 @@ export function generateEditorMetadata(): Metadata {
     },
   };
 }
-
-export function generateHomeMetadata(): Metadata {
-  return {
-    title: "Dashboard - Snippify",
-    description:
-      "Explore Snippify features and start creating beautiful code snippets",
-    openGraph: {
-      type: "website",
-      title: "Dashboard - Snippify",
-      url: "https://www.snippify.live/home",
-      images: [
-        {
-          url: "/preview.png",
-          width: 1200,
-          height: 630,
-          alt: "Snippify - Code Snippet Image Generator",
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: "Dashboard - Snippify",
-      description:
-        "Explore Snippify features and start creating beautiful code snippets",
-      images: ["/preview.png"],
-    },
-  };
-}

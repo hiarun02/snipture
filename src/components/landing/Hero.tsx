@@ -42,9 +42,15 @@ export default function Hero() {
   }, [stars]);
 
   return (
-    <section id="hero" className="bg-white pb-16 pt-20 dark:bg-gray-950">
+    <section id="hero" className="bg-white pb-16 pt-20 dark:bg-[#111010]">
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-10 px-4 text-center">
         <div className="space-y-4 sm:max-w-3xl">
+          {/* badge */}
+          <div>
+            <span className="inline-block rounded-full bg-gray-100/60 px-3 py-1 mb-5 text-sm font-medium dark:bg-amber-200/20 dark:text-amber-300">
+              Verson 1.0.0
+            </span>
+          </div>
           <h1 className="text-4xl font-extrabold leading-tight text-gray-900 dark:text-white sm:text-5xl">
             Beautiful Code Shots for Any Stack
           </h1>

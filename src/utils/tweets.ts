@@ -221,4 +221,30 @@ export const tweets: TweetDTO[] = [
     },
     created_at: "7:02 PM · Jan 28, 2026",
   },
+  {
+    id: "1842719000000000017",
+    text: "Will be using this from now on, Thanks for making this!",
+    url: "https://x.com/iamharshkanjiya/status/2019123839201079664?s=20",
+    author: {
+      name: "Harsh kanjiya",
+      username: "iamharshkanjiya",
+      profile_image_url:
+        "https://pbs.twimg.com/profile_images/1990802704692883458/ohGvVkAF_400x400.jpg",
+      verified: true,
+    },
+    created_at: "11:52 PM · Feb 5, 2026",
+  },
+  {
+    id: "1842719000000000018",
+    text: "That's really nice 🙂",
+    url: "https://x.com/MrPerfect797/status/2016409164126552219?s=20",
+    author: {
+      name: "Mr Perfect",
+      username: "MrPerfect797",
+      profile_image_url:
+        "https://pbs.twimg.com/profile_images/1951894415917654016/xyRGsLt2_400x400.jpg",
+      verified: true,
+    },
+    created_at: "12:43 PM · Jan 28, 2026",
+  },
 ];

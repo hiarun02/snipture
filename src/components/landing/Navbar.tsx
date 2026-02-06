@@ -18,9 +18,9 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="sticky top-4 z-50 border-b border-white/60 dark:border-transparent">
-      <div className="mx-auto max-w-6xl px-4">
-        <div className="flex items-center justify-between gap-4 rounded-full border border-white/20 dark:border-gray-700 bg-transparent dark:bg-gray-900 px-4 py-3 shadow-sm shadow-black/5 backdrop-blur-2xl dark:shadow-black/50">
+    <header className="sticky top-4 z-50 border-b border-white/70 dark:border-transparent">
+      <div className="mx-auto max-w-6xl px-4 ">
+        <div className="flex items-center justify-between gap-4 rounded-full border border-white/20 dark:border-gray-700 bg-transparent dark:bg-[#111010] px-4 py-3 shadow-sm shadow-black/5 backdrop-blur-2xl dark:shadow-black/50">
           <div className="flex items-center ">
             <span className="flex h-10 w-10 items-center justify-center rounded-full text-base font-semibold text-white">
               <Image
@@ -42,7 +42,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <Button
               variant="outline"
-              className="h-10 w-10 rounded-full border-gray-300 bg-white p-0 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+              className="h-10 w-10 rounded-full border-gray-300 bg-white p-0 hover:bg-gray-50 dark:border-gray-700 dark:bg-[#111010] dark:hover:bg-[#111010]/90"
               aria-label="Toggle theme"
               onClick={() => {
                 const currentTheme = theme === "system" ? systemTheme : theme;

@@ -18,7 +18,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="fixed bottom-0 w-full p-4 backdrop-blur-2xl bg-white/20 dark:bg-white/5 z-50 border-t border-white/20 dark:border-white/10 shadow-lg shadow-black/5 dark:shadow-black/30">
+    <footer className="fixed bottom-0 w-full p-4 backdrop-blur-2xl bg-white/20 dark:bg-[#111010]/80 z-50 border-t border-white/20 dark:border-white/10 shadow-lg shadow-black/5 dark:shadow-black/30">
       <nav className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-6">
         <div className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-gray-800 dark:text-gray-100">
           <Link
@@ -39,7 +39,7 @@ export default function Footer() {
         <div className="flex items-center gap-3 text-xs sm:text-sm text-gray-700 dark:text-gray-300">
           <Button
             variant="outline"
-            className="h-7 w-7 rounded-full border border-black/20 bg-white/80 p-0 shadow-sm hover:bg-white dark:border-gray-700 dark:bg-gray-900 dark:hover:bg-gray-800"
+            className="h-7 w-7 rounded-full border border-black/20 bg-white/80 p-0 shadow-sm hover:bg-white dark:border-gray-700 dark:bg-[#111010] dark:hover:bg-[#111010]/90"
             aria-label="Toggle theme"
             onClick={() => {
               const currentTheme = theme === "system" ? systemTheme : theme;
